@@ -19,6 +19,6 @@ export default {
 <style scoped>
 .container {
   text-align: center;
-  color: pink;
+  /* color: pink; */
 }
 </style>

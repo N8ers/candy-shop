@@ -1,10 +1,12 @@
 <template>
   <div id="app">
-    <h1>Candy Shop</h1>
-    <router-view>
-      <router-link to="/">home</router-link>
-      <router-link to="/bag">bag</router-link>
-    </router-view>
+    <div class="heading">
+      <h1 class="header">Candy Shop</h1>
+      <router-view>
+        <router-link to="/">home</router-link>
+        <router-link to="/bag">bag</router-link>
+      </router-view>
+    </div>
   </div>
 </template>
 
@@ -15,4 +17,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.heading {
+  background-color: #ccc;
+}
+.header {
+  text-align: center;
+}
+</style>

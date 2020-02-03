@@ -1,16 +1,17 @@
 <template>
   <div class="container">
-    <router-link to="/">shop!</router-link>
-    <h2>I am BAG</h2>
-    <BagGrid />
+    <h1>i am grid!</h1>
+    <h1>i am grid!</h1>
+    <h1>i am grid!</h1>
+    <h1>i am grid!</h1>
+    <h1>i am grid!</h1>
+    <h1>i am grid!</h1>
   </div>
 </template>
 
 <script>
-import BagGrid from "./BagGrid";
-
 export default {
-  components: { BagGrid }
+  name: "BagGrid"
 };
 </script>
 
